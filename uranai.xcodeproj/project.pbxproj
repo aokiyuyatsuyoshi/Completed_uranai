@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,12 @@
 		241F3FE3242531C6001547F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241F3FE1242531C6001547F6 /* Main.storyboard */; };
 		241F3FE5242531CB001547F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241F3FE4242531CB001547F6 /* Assets.xcassets */; };
 		241F3FE8242531CB001547F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241F3FE6242531CB001547F6 /* LaunchScreen.storyboard */; };
+		241F3FF0242538BB001547F6 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241F3FEF242538BB001547F6 /* resultViewController.swift */; };
+		241F3FF52426779C001547F6 /* s_1001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 241F3FF42426779C001547F6 /* s_1001.jpg */; };
+		241F3FF7242687A1001547F6 /* lottery.png in Resources */ = {isa = PBXBuildFile; fileRef = 241F3FF6242687A0001547F6 /* lottery.png */; };
+		241F3FF9242688E9001547F6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241F3FF8242688E9001547F6 /* Launch Screen.storyboard */; };
+		241F405D242B7CFE001547F6 /* other_day_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241F405C242B7CFE001547F6 /* other_day_ViewController.swift */; };
+		F0207C7C8FE8A52A0560A479 /* Pods_uranai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D5E5C58FE2C3C119E434E6 /* Pods_uranai.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,14 @@
 		241F3FE4242531CB001547F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		241F3FE7242531CB001547F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		241F3FE9242531CB001547F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241F3FEF242538BB001547F6 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
+		241F3FF42426779C001547F6 /* s_1001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s_1001.jpg; sourceTree = "<group>"; };
+		241F3FF6242687A0001547F6 /* lottery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lottery.png; sourceTree = "<group>"; };
+		241F3FF8242688E9001547F6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		241F405C242B7CFE001547F6 /* other_day_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = other_day_ViewController.swift; sourceTree = "<group>"; };
+		35C6416B47D1CB68CD1645DC /* Pods-uranai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uranai.release.xcconfig"; path = "Target Support Files/Pods-uranai/Pods-uranai.release.xcconfig"; sourceTree = "<group>"; };
+		C5D5E5C58FE2C3C119E434E6 /* Pods_uranai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uranai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00A24F1BEB4ED0765AF2810 /* Pods-uranai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uranai.debug.xcconfig"; path = "Target Support Files/Pods-uranai/Pods-uranai.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0207C7C8FE8A52A0560A479 /* Pods_uranai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				241F3FDA242531C6001547F6 /* uranai */,
 				241F3FD9242531C6001547F6 /* Products */,
+				4E09E8F994B7744F0A21CB66 /* Pods */,
+				260F3EAD0498885BCD43C9E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +76,34 @@
 				241F3FDB242531C6001547F6 /* AppDelegate.swift */,
 				241F3FDD242531C6001547F6 /* SceneDelegate.swift */,
 				241F3FDF242531C6001547F6 /* ViewController.swift */,
+				241F3FEF242538BB001547F6 /* resultViewController.swift */,
 				241F3FE1242531C6001547F6 /* Main.storyboard */,
+				241F3FF42426779C001547F6 /* s_1001.jpg */,
+				241F3FF6242687A0001547F6 /* lottery.png */,
+				241F405C242B7CFE001547F6 /* other_day_ViewController.swift */,
 				241F3FE4242531CB001547F6 /* Assets.xcassets */,
 				241F3FE6242531CB001547F6 /* LaunchScreen.storyboard */,
+				241F3FF8242688E9001547F6 /* Launch Screen.storyboard */,
 				241F3FE9242531CB001547F6 /* Info.plist */,
 			);
 			path = uranai;
+			sourceTree = "<group>";
+		};
+		260F3EAD0498885BCD43C9E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5D5E5C58FE2C3C119E434E6 /* Pods_uranai.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E09E8F994B7744F0A21CB66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D00A24F1BEB4ED0765AF2810 /* Pods-uranai.debug.xcconfig */,
+				35C6416B47D1CB68CD1645DC /* Pods-uranai.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 241F3FEC242531CB001547F6 /* Build configuration list for PBXNativeTarget "uranai" */;
 			buildPhases = (
+				2019DC0BD892D70A1FDFDD4E /* [CP] Check Pods Manifest.lock */,
 				241F3FD4242531C6001547F6 /* Sources */,
 				241F3FD5242531C6001547F6 /* Frameworks */,
 				241F3FD6242531C6001547F6 /* Resources */,
+				DD99457D1E948F7E566F6AD4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +166,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241F3FF9242688E9001547F6 /* Launch Screen.storyboard in Resources */,
 				241F3FE8242531CB001547F6 /* LaunchScreen.storyboard in Resources */,
+				241F3FF7242687A1001547F6 /* lottery.png in Resources */,
+				241F3FF52426779C001547F6 /* s_1001.jpg in Resources */,
 				241F3FE5242531CB001547F6 /* Assets.xcassets in Resources */,
 				241F3FE3242531C6001547F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2019DC0BD892D70A1FDFDD4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-uranai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD99457D1E948F7E566F6AD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uranai/Pods-uranai-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uranai/Pods-uranai-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-uranai/Pods-uranai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		241F3FD4242531C6001547F6 /* Sources */ = {
@@ -141,6 +227,8 @@
 				241F3FE0242531C6001547F6 /* ViewController.swift in Sources */,
 				241F3FDC242531C6001547F6 /* AppDelegate.swift in Sources */,
 				241F3FDE242531C6001547F6 /* SceneDelegate.swift in Sources */,
+				241F405D242B7CFE001547F6 /* other_day_ViewController.swift in Sources */,
+				241F3FF0242538BB001547F6 /* resultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +370,7 @@
 		};
 		241F3FED242531CB001547F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00A24F1BEB4ED0765AF2810 /* Pods-uranai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +388,7 @@
 		};
 		241F3FEE242531CB001547F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C6416B47D1CB68CD1645DC /* Pods-uranai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
